@@ -1,0 +1,46 @@
+Algoritmo sin_titulo
+	Imprimir "dame un número"
+	Leer N1
+	Imprimir "dame otro numero"
+	leer N2
+	r=N1+N2
+	imprimir "el resultado es" R
+	
+	imprimir "cuantas veces necesitas tu nombre"
+	Leer x
+	a=1
+	mientras a <= x Hacer
+		imprimir "jorge brito monroy"
+		a=a+1
+	FinMientras
+
+	imprimir "que tabla de multiplicar necesitas"
+	Leer x
+	c=1
+	mientras c <= 15 Hacer
+		r=x*c
+		Imprimir x "*" c "=" r
+		c=c+1
+	FinMientras
+	
+	imprimir "de que numero necesitas el factorial"
+	leer x
+	c=1
+	r=1
+	mientras c <= x hacer 
+		r= r * c
+		Imprimir (r/c) "*" c "=" r
+		c=c+1
+	FinMientras
+	
+	imprimir "numero a sumar"
+	leer x
+	c=1
+	r=0
+	Mientras c <= x Hacer
+		r=c+r
+		c=c+1
+		Imprimir r
+		
+	FinMientras
+FinAlgoritmo
